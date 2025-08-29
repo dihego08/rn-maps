@@ -91,7 +91,7 @@ export default () => {
                 id_usuario: 1,
                 id_vehiculo: 1,
             };
-            fetch("https://diegoaranibar.com/react/locations.php?accion=guardar_ubicacion", {
+            fetch("https://dragonkreativo.com/react/locations.php?accion=guardar_ubicacion", {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(Data)

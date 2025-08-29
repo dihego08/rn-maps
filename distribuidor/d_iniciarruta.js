@@ -119,7 +119,7 @@ export default (props) => {
                 kilometraje: distance,
                 _tiempo: transcurrido
             };
-            fetch("https://diegoaranibar.com/react/locations.php?accion=guardar_ubicacion", {
+            fetch("https://dragonkreativo.com/react/locations.php?accion=guardar_ubicacion", {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(Data)

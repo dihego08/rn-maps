@@ -30,7 +30,7 @@ export default (props) => {
         // Llamada a una función que obtiene datos de ubicaciones desde una API
         async function fetchLocationsFromAPI() {
             try {
-                const response = await fetch('https://diegoaranibar.com/react/locations.php?accion=listar_ubicaciones');
+                const response = await fetch('https://dragonkreativo.com/react/locations.php?accion=listar_ubicaciones');
                 const data = await response.json();
 
                 // Agrega las ubicaciones de la API a la lista existente
